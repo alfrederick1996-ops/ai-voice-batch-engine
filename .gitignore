@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+config.local.json
+
+# AI models
+*.onnx
+*.onnx.json
+*.pth
+*.pt
+*.ckpt
+voces/
+voces_clonadas/
+models/
+openvoice_v2/
+entorno_openvoice/
+
+# Generated audio
+salida/
+output/
+*.wav
+*.gsm
+*.mp3
+
+# Application data / cache
+datos/
+cache/
+cache_pcm/
+*.db
+*.sqlite
+*.sqlite3
+
+# Private/customer data
+plantillas/
+templates/private/
+data/private/
+*.csv
+*.xlsx
+*.xls
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
